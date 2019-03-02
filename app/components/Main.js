@@ -23,7 +23,7 @@ export default class Main extends Component {
       <View style={styles.container}>
 
         <View style={styles.header}>
-          <Text sytle={{color: 'white', fontSize: 18, padding: 26,}}>- TASKS -</Text>
+          <Text sytle={styles.headerText}>- TASKS -</Text>
         </View>
 
         <ScrollView style={styles.scrollViewContainer}>
